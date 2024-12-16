@@ -487,19 +487,19 @@ aside ul li {
 }
 
 #one {
-    background-image: url('https://github.com/Youngwoo-Lim/submit1/tree/main/img/step1.png');
+    background-image: url('./img/step2.png');
 }
 
 #two {
-    background-image: url('../img/step2.png');
+    background-image: url('./img/step2.png');
 }
 
 #three {
-    background-image: url('../img/step3.png');
+    background-image: url('./img/step3.png');
 }
 
 #four {
-    background-image: url('../img/step4.png');
+    background-image: url('./img/step4.png');
 }
 
 #four .circle {
