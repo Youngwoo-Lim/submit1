@@ -487,19 +487,19 @@ aside ul li {
 }
 
 #one {
-    background-image: url('/step1.png');
+    background-image: url('step1.png');
 }
 
 #two {
-    background-image: url('/step2.png');
+    background-image: url('step2.png');
 }
 
 #three {
-    background-image: url('/step3.png');
+    background-image: url('step3.png');
 }
 
 #four {
-    background-image: url('/step4.png');
+    background-image: url('step4.png');
 }
 
 #four .circle {
