@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="official">
+        <div class="first">
+            <img src="img\flag.png" alt="">
+            <ul>
+                <li>
+                    이 누리집은 대한민국 공식 전자정부 누리집입니다.
+                </li>
+                <li class="current">
+                    공식 누리집 확인방법
+                    <img src="img\chevron 1.png" alt="">
+                </li>
+            </ul>
+        </div>
+        <div class="second">
+            <ul>
+                <li>
+                    화면크기
+                    <img src="img\chevron 1.png" alt="">
+                </li>
+                <li style="color: #c6c6c6;">|</li>
+                <li>누리집 안내도</li>
+            </ul>
+        </div>
+    </div>
+    <div class="whole">
+        <div class="container">
+            <nav>
+                <div>
+                    <a href="">
+                        <img src="img\logo.png" alt="" id="logo">
+                    </a>
+                    <ul  class="sub">
+                        <li class="sub_logo">
+                            보이스피싱
+                        </li>
+                        <li id="explain">
+                            통합신고 홈페이지
+                        </li>
+                    </ul>
+                </div>
+                <div class="all-menu">
+                    <ul class="main_menu">
+                        <li><a href="#통합신고">통합신고</a></li>
+                        <li><a href="#보이스피싱이란?">보이스피싱이란?</a></li>
+                        <li><a href="#소식·참여">소식·참여</a></li>
+                        <li><a href="#자료실">소식·참여</a></li>
+                    </ul>
+                    <ul class="sub_menu">
+                        <li class="setting">
+                            <img src="img\login.png" alt="" class="host">
+                            <a href="#로그인">로그인</a>
+                        </li>
+                        <li class="setting">
+                            <img src="img\member.png" alt="" class="host">
+                            <a href="#회원가입">회원가입</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div id="counseling">
+                <img src="img\counseling.jpg" alt="">
+            </div>
+        </div>
+        <div class="content">
+            <aside>
+                <ul>
+                    <li><a href="#통합신고" class="current">통합신고</a>
+                        <img src="img\dot.png" alt="" id="dot">
+                    </li>
+                    <li><a href="보이스피싱 신고(제보)">보이스피싱 신고(제보)</a></li>
+                    <li><a href="#발신번호 거짓표시(변작) 신고">발신번호 거짓표시(변작) 신고</a></li>
+                    <li><a href="#결과확인">결과확인</a></li>
+                    <li><a href="스미싱 신고">스미싱 신고</a></li>
+                </ul>
+            </aside>
+            <main>
+                <section>
+                    <div class="navigation">
+                        <div>
+                            <img src="img\home.png" alt="" class="home">
+                                <ul class="things">
+                                    <li><a href="#홈">홈</a></li>
+                                    <li>&gt;</li>
+                                    <li><a href="통합신고">통합신고</a></li>
+                                    <li>&gt;</li>
+                                    <li><a href="통합신고" id="now">통합신고</a></li>
+                                </ul>
+                        </div>
+                        <button>
+                            <a href="javascript:window.print();">
+                                <img src="img\print.png" alt="">
+                            </a>
+                        </button>
+                    </div>
+                    <h1>통합신고</h1>
+                    <div class="step">
+                        <ul>
+                            <li>
+                                <div class="arrow-container" id="one">
+                                    <div class="circle">1</div>
+                                    <a href="#회원가입">
+                                        <span class="step_text">회원가입</span>
+                                    </a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="arrow-container" id="two">
+                                    <div class="circle">2</div>
+                                    <a href="본인인증">
+                                        <span class="step_text">본인인증</span>
+                                    </a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="arrow-container" id="three">
+                                    <div class="circle">3</div>
+                                    <a href="#정보입력">
+                                        <span class="step_text">정보입력</span>
+                                    </a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="arrow-container" id="four">
+                                    <div class="circle">4</div>
+                                    <a href="#회원가입 확인">
+                                        <span class="step_text">회원가입 확인</span>
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <div class="type">선택하신 신고유형</div>
+                        <div class="check">
+                            <button class="custom-button" id="color-button">
+                                보이스피싱 신고(제보)
+                            </button>
+                            </button>
+                            <button class="custom-button" id="color-button">발신번호 거짓표시(변작) 신고</button>
+                            </button>
+                            <button class="custom-button" id="color-button">스미싱 신고</button>
+                            </button>
+                        </div>
+                        <div>
+                            <ul class="warning">
+                                <li>
+                                    ※ 통합신고 안내에서 선택 하신 신고 유형 입니다. 각 신고 별로 체크박스 버튼을 클릭 하시면 선택 또는 해제 됩니다.
+                                </li>
+                                <li>
+                                    ※ 선택 신고 유형에 따라 입력해야 하는 정보가 다르게 출력 됩니다.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <article>
+                        <span class="article_title">신고자 정보</span>
+                        <form class="chart">
+                            <div class="row">
+                                <div class="field">신고자 이름</div>
+                                <div class="label">홍길동</div>
+                            </div>
+                            <div class="row">
+                                <div class="field">음성/문자 선택<span class="red"> *</span></div>
+                                <div class="label">
+                                    <div class="right_margin">
+                                        <input type='radio' id='voice' name='voice/sms' class="radio_box"/>
+                                        <label for='voice'>음성</label>
+                                    </div>
+                                    <div class="right_margin">
+                                        <input type='radio' id='sms' name='voice/sms' class="radio_box"/>
+                                        <label for='sms'>문자</label>
+                                    </div>
+                                    <div class="right_margin">
+                                        <input type='radio' id='all' name='voice/sms' class="radio_box"/>
+                                        <label for='all'>음성 + 문자</label>
+                                    </div>
+                                    ※ 음성은 통화 수신 시, 문자는 문자 수신 시 선택
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="field">신고자(수신자) 전화번호<span class="red"> *</span></div>
+                                <div class="label">
+                                    <select name="telecom" id="tel" class="custom-dropdown">
+                                        <option value="SKT">SKT</option>
+                                        <option value="KT">KT</option>
+                                        <option value="LGU">LGU</option>
+                                    </select>
+                                    <select name="telecom" id="tel" class="custom-dropdown">
+                                        <option value="010">010</option>
+                                        <option value="02">02</option>
+                                        <option value="031">031</option>
+                                        <option value="032">032</option>
+                                        <option value="033">033</option>
+                                        <option value="041">041</option>
+                                        <option value="042">042</option>
+                                        <option value="043">043</option>
+                                        <option value="044">044</option>
+                                        <option value="051">051</option>
+                                        <option value="052">052</option>
+                                        <option value="053">053</option>
+                                        <option value="054">054</option>
+                                        <option value="055">055</option>
+                                        <option value="062">062</option>
+                                        <option value="063">063</option>
+                                        <option value="064">064</option>
+                                    </select>
+                                    -
+                                    <input type="text" class="input_tel" maxlength="4" style="width: 100px;"=>
+                                    -
+                                    <input type="text" class="input_tel" maxlength="4" style="width: 100px;">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="field">신고자 이메일 주소<span class="red"> *</span></div>
+                                <div class="label">
+                                    <input type="text" class="input_tel" style="width: 160px;">
+                                    @
+                                    <input type="text" class="input_tel" style="width: 220px;">
+                                </div>
+                            </div>
+                        </form>
+                    </article>
+                    <article>
+                        <span class="article_title">발신자 정보</span>
+                        <form class="chart">
+                            <div class="row">
+                                <div class="field">전화 수신 시각<span class="red"> *</span></div>
+                                <div class="label">
+                                    <input type="date" class="input_date" id="date" max="2099-12-31" min="1900-01-01">
+                                        <select name="telecom" id="tel" class="custom-dropdown">
+                                            <option value="오전">오전</option>
+                                            <option value="오후">오후</option>
+                                        </select>
+                                        <select name="hour" id="hour" class="custom-dropdown">
+                                            <option value="00">00</option>
+                                            <option value="01">01</option>
+                                            <option value="02">02</option>
+                                            <option value="03">03</option>
+                                            <option value="04">04</option>
+                                            <option value="05">05</option>
+                                            <option value="06">06</option>
+                                            <option value="07">07</option>
+                                            <option value="08">08</option>
+                                            <option value="09">09</option>
+                                            <option value="10">10</option>
+                                            <option value="11">11</option>
+                                            <option value="12">12</option>
+                                        </select>
+                                        시
+                                        <select name="minute" id="min" class="custom-dropdown">
+                                            <option value="00">00</option>
+                                            <option value="01">01</option>
+                                            <option value="02">02</option>
+                                            <option value="00">04</option>
+                                            <option value="01">05</option>
+                                            <option value="02">06</option>
+                                            <option value="00">07</option>
+                                            <option value="01">08</option>
+                                            <option value="02">09</option>
+                                            <option value="00">10</option>
+                                            <option value="01">11</option>
+                                            <option value="02">12</option>
+                                            <option value="00">13</option>
+                                            <option value="01">14</option>
+                                            <option value="02">15</option>
+                                            <option value="00">16</option>
+                                            <option value="01">17</option>
+                                            <option value="02">18</option>
+                                            <option value="00">19</option>
+                                            <option value="01">20</option>
+                                            <option value="02">21</option>
+                                            <option value="00">22</option>
+                                            <option value="01">23</option>
+                                            <option value="02">24</option>
+                                            <option value="00">25</option>
+                                            <option value="01">26</option>
+                                            <option value="02">27</option>
+                                            <option value="00">28</option>
+                                            <option value="01">29</option>
+                                            <option value="02">30</option>
+                                            <option value="00">31</option>
+                                            <option value="01">32</option>
+                                            <option value="02">33</option>
+                                            <option value="00">34</option>
+                                            <option value="01">35</option>
+                                            <option value="02">36</option>
+                                            <option value="00">37</option>
+                                            <option value="01">38</option>
+                                            <option value="02">39</option>
+                                            <option value="00">40</option>
+                                            <option value="01">41</option>
+                                            <option value="02">42</option>
+                                            <option value="00">43</option>
+                                            <option value="01">44</option>
+                                            <option value="02">45</option>
+                                            <option value="00">46</option>
+                                            <option value="01">47</option>
+                                            <option value="02">48</option>
+                                            <option value="00">49</option>
+                                            <option value="01">50</option>
+                                            <option value="02">51</option>
+                                            <option value="00">52</option>
+                                            <option value="01">53</option>
+                                            <option value="02">54</option>
+                                            <option value="00">55</option>
+                                            <option value="01">56</option>
+                                            <option value="02">57</option>
+                                            <option value="00">58</option>
+                                            <option value="01">59</option>
+                                        </select>
+                                        분
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="field">발신자(피싱) 전화번호<span class="red"> *</span></div>
+                                <div class="label">
+                                        <select name="telecom" id="tel" class="custom-dropdown">
+                                            <option value="010">010</option>
+                                            <option value="02">02</option>
+                                            <option value="031">031</option>
+                                            <option value="032">032</option>
+                                            <option value="033">033</option>
+                                            <option value="041">041</option>
+                                            <option value="042">042</option>
+                                            <option value="043">043</option>
+                                            <option value="044">044</option>
+                                            <option value="051">051</option>
+                                            <option value="052">052</option>
+                                            <option value="053">053</option>
+                                            <option value="054">054</option>
+                                            <option value="055">055</option>
+                                            <option value="062">062</option>
+                                            <option value="063">063</option>
+                                            <option value="064">064</option>
+                                        </select>
+                                    -
+                                    <input type="text" class="input_tel" maxlength="4" style="width: 100px;">
+                                    -
+                                    <input type="text" class="input_tel" maxlength="4" style="width: 100px;">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="field">신고분류<span class="red"> *</span></div>
+                                <div class="label">
+                                    <select name="telecom" id="tel" class="custom-dropdown" style="width: 200px;">
+                                        <option value="SKT">선택</option>
+                                        <option value="KT">KT</option>
+                                        <option value="LGU">LGU</option>
+                                    </select>
+                                    <select name="telecom" id="tel" style="width: 200px;">
+                                        <option value="SKT">선택</option>
+                                        <option value="KT">KT</option>
+                                        <option value="LGU">LGU</option>
+                                    </select>
+                                    <select name="telecom" id="tel" style="width: 200px;">
+                                        <option value="SKT">선택</option>
+                                        <option value="KT">KT</option>
+                                        <option value="LGU">LGU</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="field">통화기록 또는 메시지 기록 화면 첨부
+                                    <p class="red">※ 발신자의 전화번호 이용정지를 원하신다면 필수로 첨부해 주세요.</p>
+                                </div>
+                                <div class="label2">
+                                    <div class="file-upload-container" id="uploadBox">
+                                        <div class="file-description">
+                                            첨부파일을 여기에 끌어다 놓거나 파일 선택 버튼을 직접 선택해주세요
+                                        </div>
+                                        <label for="file-upload" class="custom-file-upload">
+                                            파일 선택
+                                        </label>
+                                        <input type="file" id="file-upload" class="file-input" />
+                                    </div>
+                                    <div class="file-edit">
+                                        <div class="file-name" id="file-name">첨부파일명입니다. [PDF, 20KB]</div>
+                                        <button class="delete-button" id="delete-button">
+                                            <img src="img\delete.png" alt="">
+                                            <span>삭제</span>
+                                        </button>
+                                    </div>
+                                    <div class="text">
+                                        - 첨부파일 : mp3, wav, m4a, amr 이외에는 등록하실 수 없습니다.<br>
+                                        (첨부파일은 10MB 이하만 업로드 가능합니다.)
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="field">
+                                    메세지 내에 포함된 URL
+                                    <span class="red"> *</span>
+                                </div>
+                                <div class="label2">
+                                    <input type="url" class="input_url" placeholder="“http:// 또는 https://” 를 포함하여 입력해 주세요.">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="field">녹음파일 첨부
+                                </div>
+                                <div class="label2">
+                                    <div class="file-upload-container">
+                                        <div class="file-description">
+                                            첨부파일을 여기에 끌어다 놓거나 파일 선택 버튼을 직접 선택해주세요
+                                        </div>
+                                        <label for="file-upload" class="custom-file-upload">
+                                            파일 선택
+                                        </label>
+                                        <input type="file" id="file-upload" class="file-input" />
+                                    </div>
+                                    <div class="file-edit">
+                                        <div class="file-name" id="file-name">첨부파일명입니다. [MP3, 20KB]</div>
+                                        <button class="delete-button" id="delete-button">
+                                            <img src="img\delete.png" alt="">
+                                            <span>삭제</span>
+                                        </button>
+                                    </div>
+                                    <div class="text">
+                                        - 첨부파일 : mp3, wav, m4a, amr 이외에는 등록하실 수 없습니다.<br>
+                                        (첨부파일은 10MB 이하만 업로드 가능합니다.)
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="field">
+                                    신고내용(200자 이내)
+                                    <span class="red"> *</span>
+                                </div>
+                                <div class=label2>
+                                    <textarea id="myTextarea"></textarea>
+                                    <div id="charCounter" class="counter">0 / 200</div>
+                                </div>
+                                <!-- <div class="label2">
+                                    <input type="textarea" class="input_textarea">
+                                </div> -->
+                            </div>
+                            <div class="row">
+                                <div class="field">
+                                    범죄이용 계좌 번호
+                                    <span class="red"> *</span>
+                                </div>
+                                <div class="label">
+                                    <div class="search-container">
+                                            <input type="search" class="search-input" name="q" placeholder="금융기관 검색" action="/examples/media/action_target.php" method="get"/>
+                                            <img src="img\search.png" alt="">
+                                    </div>
+                                    <input type="number" disabled class="input_number disabled"/>
+                                    <input type="number" class="input_number" placeholder="계좌번호를 입력해주세요(숫자만 입력)">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="field">
+                                    발신번호 거짓표시(변작)신고 조회용 비밀번호
+                                    <span class="red"> *</span>
+                                </div>
+                                <div class="label2">
+                                    <input type="number" class="input_number" placeholder="숫자만 입력가능합니다.">
+                                    <div style="margin-top: 12px;">
+                                        <p class="red">※ 비밀번호는 발신번호 거짓표시(변작) 신고결과 조회 시 사용됩니다.</p>
+                                        <p>신고 결과에 대한 조회가 필요한 경우, 로그인 또는 본인인증 후 "신고결과" 화면에서 확인 하실 수 있습니다.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="field">
+                                    발신번호 거짓표시(변작)신고 조회용 비밀번호 확인
+                                    <span class="red"> *</span>
+                                </div>
+                                <div class="label2">
+                                    <input type="number" class="input_number" placeholder="숫자만 입력가능합니다.">
+                                </div>
+                            </div>
+                        </form>
+                    </article>
+                    <div class="buttons">
+                        <button type="button" class="pre-button">이전</button>
+                        <button type="button" class="next-button">다음</button>
+                    </div>
+                </section>
+            </main>
+        </div>   
+    </div>
+    <footer>
+        <div class="up">
+            <a href="#시·도 경찰청 누리집">
+                <div id="family" class="relation">
+                    <span>시·도 경찰청 누리집</span>
+                    <img src="img\plus.png" alt="">
+                </div>
+            </a>
+            <a href="#부속기관 누리집">
+                <div class="relation">
+                    <span>부속기관 누리집</span>
+                    <img src="img\plus.png" alt="">
+                </div>
+            </a>
+            <a href="연계기관 누리집">
+                <div class="relation">
+                    <span>연계기관 누리집</span>
+                    <img src="img\plus.png" alt="">
+                </div>
+            </a>
+            <a href="#정부기관">
+                <div class="relation">
+                    <span>정부기관</span>
+                    <img src="img\plus.png" alt="">
+                </div>
+            </a>
+        </div>
+        <div class="down">
+            <div class="area">
+                <ul class="etc">
+                    <a href="개인정보처리방침">
+                        <li class="current">개인정보처리방침</li>
+                    </a>
+                    <a href="이용약관">
+                        <li class="yet">이용약관</li>
+                    </a>
+                    <a href="저작권정책">
+                        <li class="yet">저작권정책</li>
+                    </a>
+                    <a href="이용안내">
+                        <li class="yet">이용안내</li>
+                    </a>
+                    <a href="찾아오시는 길">
+                        <li class="yet">찾아오시는 길</li>
+                    </a>
+                </ul>
+                <div class="info">
+                    <div class="write">
+                        <span>(우)03739 서울특별시 서대문구 통일로 97</span>
+                        <span>민원대표전화 182(유료)</span>
+                    </div>
+                    <div class="write">
+                        <span>© 2018. Korean National Police Agency</span>
+                    </div>
+                    <div class="last">
+                        <div class="write notice">
+                            <span>본 홈페이지에 게시판 이메일 주소가 자동 수집되는 것을 거부하며, 이를 위반 시 정보통신망법에 의해 처벌됨을 유념하시기 바랍니다.</span>
+                        </div>
+                        <div class="social_media">
+                            <a href="instagram">
+                                <div class="sns">
+                                    <img src="img\instagram.png" alt="">
+                                </div>
+                            </a>
+                            <a href="youtube">
+                                <div class="sns">
+                                    <img src="img\youtube.png" alt="">
+                                </div>
+                            </a>
+                            <a href="X">
+                                <div class="sns">
+                                    <img src="img\X.png" alt="">
+                                </div>
+                            </a>
+                            <a href="facebook">
+                                <div class="sns">
+                                    <img src="img\facebook.png" alt="">
+                                </div>
+                            </a>
+                            <a href="blog">
+                                <div class="sns">
+                                    <img src="img\instagram.png" alt="">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
