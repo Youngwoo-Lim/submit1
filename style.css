@@ -288,7 +288,7 @@ nav div {
 
 .all-menu {
     display: justfy contents;
-    gap: 55px;
+    gap: 160px;
 }
 
 menu {
@@ -299,7 +299,7 @@ menu {
 .main_menu {
     font-size: 18px;
     display: flex;
-    gap: 40px;
+    gap: 75px;
 }
 .main_menu a:hover {
     color: #004085;
